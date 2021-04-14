@@ -5,9 +5,6 @@ import time
 import datetime
 
 
-
-
-
 from firebase_admin import credentials  #파이어베이스 sdk 불러오기
 from firebase_admin import db  #파이어베이스 sdk 불러오기
 from time import sleep
