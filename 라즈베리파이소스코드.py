@@ -17,8 +17,6 @@ GPIO.setup(pin, GPIO.OUT)
 p = GPIO.PWM(pin, 50)
 p.start(0) # 서보모터 duty 값 0으로 초기화
 
-
-
 #Firebase database 인증
 #Firebase에서 생성한 인증키를 통하여 서비스계정 인증
 #automatic-feeder.json 파일에는 firebase 서비스 계정과 관련된 모든 정보 포함 (프로젝트id,프로젝트keyid,클라이언트id,email,인증uri,토큰uri 등..)
